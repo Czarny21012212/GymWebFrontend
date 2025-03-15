@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Choice Box*/
+body{
+    font-family: "Open Sans", serif;
+}
+.buyPass-all{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.div-h1{
+    width: 100%;
+}
+.buyPass-items{
+    text-align: center;
+}
+.div-h1 h2{
+    color: #464646;
+    font-size: 2rem;
+    padding: 20px;
+}
+.div-h1 span{
+    color: rgb(163, 214, 105);
+}
+
+.buyPass-items{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.buy-boxs{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.Buy-box{
+    width: 20vw;
+    height: 60vh;
+    margin: 10px;
+    background-color: rgb(28, 28, 29);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.219); 
+    border: 1px solid rgba(255, 255, 255, 0);
+    transition: all 200ms ease-in-out;
+
+}
+
+/* Design of Box*/
+
+.Buy-box h2{
+    color: rgb(228, 225, 225);
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 5px;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+.Buy-box .price{
+    color: rgb(163, 214, 105);
+    font-weight: 600;
+    font-size: 3rem;
+    text-align: center;
+}
+.Buy-box .price span{
+    color: rgb(225, 255, 170);
+    font-weight: 500;
+    font-size: 1rem;
+}
+.Buy-box ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: rgb(200, 200, 200);
+    font-size: 1rem;
+    padding: 20px;
+}
+
+.Buy-box ul li {
+    margin: 10px 0;
+    text-align: left;
+    padding-left: 20px;
+    position: relative;
+    font-size: 0.9rem;
+    color: rgba(240, 248, 255, 0.658);
+}
+
+.Buy-box ul li:before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: rgb(163, 214, 105);
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+
+}
+.Buy-box .buy-btn {
+    background-color: rgb(163, 214, 105);
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    padding: 15px 5vw;
+    border: none;
+    font-size: 1rem;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition: all 500ms ease-in-out;
+}
+
+.Buy-box .buy-btn:hover {
+    background-color: rgba(163, 214, 105, 0.253);
+   border: 2px solid rgb(163, 214, 105);
+   color: white;/* Ciemniejszy zielony po najechaniu */
+}
+
+.buyPass-items {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.buyPass-items h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.buy-boxs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+/* Menu Panel */
+
+.menu-all{
+    position: absolute;
+    width: 70vw;
+    height: 80vh;
+    background-color: rgb(236, 236, 236);
+    z-index: 9999;
+    box-shadow: 0px 0px 10px 100000px rgba(0, 0, 0, 0.596);
+}
+
+/* Menu map */
+.menu-all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -5vh;
+}
+.menu-map{
+    display: flex;
+}
+.menu-line-on{
+    width: 10vw;
+    height: 10px;
+    background-color: rgb(163, 214, 105);
+}
+.menu-line-off{
+    width: 10vw;
+    height: 10px;
+    background-color: rgb(214, 214, 214);
+    border-left: 3px solid #ffffff;
+}
+.menu-section{
+    text-align: center;
+    height: 6vh;
+}
+.menu-Logo img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 150px;
+}
+.menu-Close img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    cursor: pointer;
+}
+.menu-typeOfPass {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    font-size: 1.2rem;
+    background: linear-gradient(135deg, #272727 30%, #3c3c3c 100%);
+    padding: 0px 30px;
+    color: rgb(163, 214, 105);
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* section 1 */
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu-section-1, .menu-section-2{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+.menu-section-2 button{
+    background-color: rgb(163, 214, 105);
+    font-weight: 500;
+    padding: 10px 40px;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+}
+.menu-section-1 button{
+    border: none;
+    background-color: rgb(163, 214, 105);;
+    font-weight: 500;
+    padding: 10px 40px;
+    width: 100%;
+    margin: 10px;
+    cursor: pointer;
+}
+.Hello{
+    border: 1px solid red;
+}
+.menu-section-2 .input-error, .menu-section-1 .input-error{
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 0, 0);
+}
+.menu-section-2 .input-error:focus{
+    outline: none;
+    border: 1px solid rgb(255, 0, 0);
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.menu-section-1 .input-error:focus{
+    outline: none;
+    border: 1px solid rgb(255, 0, 0);
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.menu-section-1 .input, .menu-section-2 .input{
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+.menu-section-2 .input:focus, .menu-section-1 .input:focus{
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.185);
+}
+.menu-section-1 select{
+    width: 95%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.301);
+    border-radius: 0px;
+    border: none;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    margin: 5px;
+}
+.menu-section-1 select:focus {
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.185);
+}
+.menu-button{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+
+    margin: 10px;
+}
+.menu-section-1 h1{
+    color: #464646;
+}
+.checkbox-box{
+    width: 20vw;
+    color: #7a7a7a;
+    padding: 20px;
+    font-size: 0.9rem;
+}
+
+/* Error */
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.input-box p{
+    margin-top: 5px;
+    margin-bottom: -5px;
+    margin-left: 10px;
+    background-color: rgba(255, 0, 0, 0.055);
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 5px;
+    color: rgba(175, 0, 0, 0.527);
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+    .buy-boxs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+    .Buy-box{
+        width: 130%;
+        height: auto;
+        padding-bottom: 50px;
+        border: 1px solid rgba(0, 0, 0, 0.253);
+        background-color: rgb(28, 28, 29);
+    }
+    .buyPass-items{
+        align-items: center;
+    }
+}
